@@ -1,0 +1,45 @@
+# mac
+*.DS_Store
+.DS_Store
+
+# editors
+.vscode
+
+# java
+.idea
+*.iml
+
+# data
+*.log
+*.avro
+*.tgz
+.db
+
+# secrets
+service_account_credentials.json
+
+# python
+*__pycache__
+*.egg-info
+build
+dist
+MANIFEST
+
+# python test
+.coverage
+.mypy_cache
+.pytest_cache/
+.tox
+
+# Ignore env config
+.env
+
+# Logs
+*.log*
+
+# venvs
+.venv/
+env/
+venv/
+.venv
+/venv

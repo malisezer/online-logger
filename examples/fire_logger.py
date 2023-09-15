@@ -1,7 +1,7 @@
 from online_logger.client import RemoteLogger
 import time
 
-rem_logger = RemoteLogger("http://127.0.0.1:8000")
+rem_logger = RemoteLogger("http://139.59.165.223:8000")
 
 
 rem_logger.info("Starting processing")
